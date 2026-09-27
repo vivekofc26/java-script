@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bulb</title>
+        <style>
+        body {
+            text-align: center;
+            padding-top: 70px;
+        }
+        #bgVideo {
+            position: fixed;
+            top: 0;
+            left: 0;
+
+            width: 100%;
+            height: 100%;
+
+            object-fit: cover;
+            z-index: -1;
+        }
+        .highlight{
+            font-weight: bold;
+            color: yellow;
+        }
+
+
+    </style>
+</head>
+
+<body>
+     <video id="bgVideo" autoplay muted loop>
+        <source src="15560268_3840_2160_50fps.mp4">
+    </video>
+
+    <img id="myImage"
+         onclick="changeImage()"
+         src="ff481a0a-e4b4-4606-ab53-b4fd136c3d13.png"
+         height="600px">
+
+    <p class="highlight">TAP TO GIVE HIM A COFFEE AND MAKE HIM HAPPY</p>
+
+    <script src="man.js"></script>
+
+</body>
+</html>
